@@ -1,25 +1,35 @@
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; 
 }
 
 ul {
     list-style: none;
     display: flex;
     justify-content: right;
-    gap: 16px
-    
+    gap: 16px;
 }
+
+
 
 .logo {
     width: 150px;
 }
 
+.title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title img {
+    width: 400px;
+}
+
 body {
     display: flex;
-    flex-direction: column;
-    align-content: center;
-  
+    flex-direction: column;  
+    max-width: 800px;
+    margin:0 auto;
 }
 
 .square-images {
