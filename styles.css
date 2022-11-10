@@ -3,6 +3,21 @@ header {
     justify-content: space-between; 
 }
 
+header,
+.title {
+    background-color: #1F2937;
+}
+
+h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 ul {
     list-style: none;
     display: flex;
@@ -10,10 +25,22 @@ ul {
     gap: 16px;
 }
 
+ul,
+h4,
+button,
+.action {
+    color: #f9faf8;
+} 
 
+.title-text button {
+    background-color: #3882F6;
+    border: 0;
+    border-radius: 8%;
+    padding: 5px 24px;   
+}
 
 .logo {
-    width: 150px;
+    width: 120px;
 }
 
 .title {
@@ -25,19 +52,65 @@ ul {
     width: 400px;
 }
 
-body {
-    display: flex;
-    flex-direction: column;  
-    max-width: 800px;
-    margin:0 auto;
-}
-
 .square-images {
-    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 .square-images img{
-    width: 200px;
+    width: 150px;
     padding: 16px;
-    border-radius: 15%;
+    border-radius: 25px;
+}
+
+.square-images p {
+    width: 150px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+    color: #1F2937;
+    padding: 100px 100px 0px 100px;
+    margin: 0;
+}
+
+.attribution {
+    text-align: right;
+    padding: 5px 100px 100px 100px;
+    margin: 0;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.action {
+    background-color: #3882F6;
+    padding: 40px 80px;
+    margin: 80px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+button.white-border {
+    background-color: #3882F6;
+    border: 1;
+    border-radius: 8%;
+    padding: 5px 24px;   
+    border-color: #E5E7EB;
+    border-style:groove;
+    height: 30px;
+    align-self: center;
+    flex-shrink: 0;
+
 }
