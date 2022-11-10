@@ -1,0 +1,33 @@
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: right;
+    gap: 16px
+    
+}
+
+.logo {
+    width: 150px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  
+}
+
+.square-images {
+    text-align: center;
+}
+
+.square-images img{
+    width: 200px;
+    padding: 16px;
+    border-radius: 15%;
+}
