@@ -1,6 +1,7 @@
 header {
     display: flex;
     justify-content: space-between; 
+    padding: 0px 120px
 }
 
 header,
@@ -30,13 +31,27 @@ h4,
 button,
 .action {
     color: #f9faf8;
-} 
+}
 
-.title-text button {
+h4 {
+    font-weight: normal;
+}
+
+button {
+    background-color: #3882F6;
+    border: 1;
+    border-radius: 5px;
+    padding: 5px 24px;   
+    border-color: #E5E7EB;
+    border-style:groove;
+    height: 30px;
+    align-self: center;
+    flex-shrink: 0;
+}
+
+.rectangle-button {
     background-color: #3882F6;
     border: 0;
-    border-radius: 8%;
-    padding: 5px 24px;   
 }
 
 .logo {
@@ -46,15 +61,24 @@ button,
 .title {
     display: flex;
     justify-content: space-between;
+    padding: 40px 120px 120px 120px;
 }
 
 .title img {
     width: 400px;
+    object-fit: contain;
+}
+
+.title-text {
+    padding-right: 48px;
+    flex-grow: 1;
+    max-width: 500px;
 }
 
 .square-images {
     display: flex;
     justify-content: center;
+    padding-bottom: 50px;
 }
 
 .square-images img{
@@ -67,26 +91,33 @@ button,
     width: 150px;
 }
 
+
 h2 {
     text-align: center;
 }
 
-.quote {
-    background-color: #E5E7EB;
+h2,
+.quote-text{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
 }
 
-.quote-text {
-    font-size: 36px;
+
+.quote {
+    background-color: #E5E7EB;
     font-style: italic;
-    font-weight: light;
-    color: #1F2937;
-    padding: 100px 100px 0px 100px;
+}
+
+.quote .quote-text {
+    font-weight: lighter;
+    padding: 100px 200px 0px 200px;
     margin: 0;
 }
 
 .attribution {
     text-align: right;
-    padding: 5px 100px 100px 100px;
+    padding: 15px 200px 100px 100px;
     margin: 0;
     font-weight: bold;
     font-size: 24px;
@@ -94,7 +125,7 @@ h2 {
 
 .action {
     background-color: #3882F6;
-    padding: 40px 80px;
+    padding: 15px 80px;
     margin: 80px;
     border-radius: 10px;
     display: flex;
@@ -102,15 +133,4 @@ h2 {
     align-content: center;
 }
 
-button.white-border {
-    background-color: #3882F6;
-    border: 1;
-    border-radius: 8%;
-    padding: 5px 24px;   
-    border-color: #E5E7EB;
-    border-style:groove;
-    height: 30px;
-    align-self: center;
-    flex-shrink: 0;
 
-}
