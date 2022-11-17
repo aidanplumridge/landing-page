@@ -1,7 +1,16 @@
+.blue-top {
+   display: flex; 
+   flex-direction: column;
+   background-color: #1F2937;
+}
+
 header {
     display: flex;
-    justify-content: space-between; 
-    padding: 0px 120px
+    padding: 5px 64px 0px 64px;
+    justify-content: space-between;
+    max-width: 900px; 
+    margin: auto;
+    width: 100%;
 }
 
 header,
@@ -24,6 +33,7 @@ ul {
     display: flex;
     justify-content: right;
     gap: 16px;
+    max-width: 600px;
 }
 
 ul,
@@ -61,7 +71,9 @@ button {
 .title {
     display: flex;
     justify-content: space-between;
-    padding: 40px 120px 120px 120px;
+    padding: 0px 120px 48px 120px;
+    max-width: 900px;
+    margin: auto;
 }
 
 .title img {
@@ -94,6 +106,7 @@ button {
 
 h2 {
     text-align: center;
+    padding-top: 24px;
 }
 
 h2,
@@ -101,26 +114,32 @@ h2,
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
+    margin: auto;
+    
 }
 
 
 .quote {
     background-color: #E5E7EB;
     font-style: italic;
+    text-align: center;
 }
 
 .quote .quote-text {
     font-weight: lighter;
     padding: 100px 200px 0px 200px;
-    margin: 0;
+    margin: auto;
+    max-width: 900px;
 }
+
 
 .attribution {
     text-align: right;
-    padding: 15px 200px 100px 100px;
-    margin: 0;
+    padding: 15px 150px 100px 100px;
+    margin: auto;
     font-weight: bold;
     font-size: 24px;
+    max-width: 900px;
 }
 
 .action {
@@ -131,6 +150,9 @@ h2,
     display: flex;
     justify-content: space-between;
     align-content: center;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
